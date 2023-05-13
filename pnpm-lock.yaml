@@ -5,14 +5,14 @@ devDependencies:
     specifier: 0.8.0
     version: 0.8.0
   '@builder.io/qwik':
-    specifier: 1.1.1
-    version: 1.1.1(undici@5.22.1)
+    specifier: 1.1.2
+    version: 1.1.2(undici@5.22.1)
   '@builder.io/qwik-city':
-    specifier: 1.1.1
-    version: 1.1.1
+    specifier: 1.1.2
+    version: 1.1.2
   '@builder.io/sdk-qwik':
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.1.1)
+    version: 0.3.0(@builder.io/qwik@1.1.2)
   '@ls-lint/ls-lint':
     specifier: 1.11.2
     version: 1.11.2
@@ -63,13 +63,13 @@ devDependencies:
     version: 12.12.0
   cypress-ct-qwik:
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.1.1)(cypress@12.12.0)
+    version: 0.3.0(@builder.io/qwik@1.1.2)(cypress@12.12.0)
   eslint:
     specifier: 8.40.0
     version: 8.40.0
   eslint-plugin-qwik:
-    specifier: 1.1.1
-    version: 1.1.1(eslint@8.40.0)
+    specifier: 1.1.2
+    version: 1.1.2(eslint@8.40.0)
   husky:
     specifier: 8.0.3
     version: 8.0.3
@@ -93,7 +93,7 @@ devDependencies:
     version: 7.0.11
   storybook-framework-qwik:
     specifier: 0.2.0
-    version: 0.2.0(@builder.io/qwik@1.1.1)(typescript@5.0.4)(vite@4.3.5)
+    version: 0.2.0(@builder.io/qwik@1.1.2)(typescript@5.0.4)(vite@4.3.5)
   stylelint:
     specifier: 15.6.1
     version: 15.6.1
@@ -1420,8 +1420,8 @@ packages:
     hasBin: true
     dev: true
 
-  /@builder.io/qwik-city@1.1.1:
-    resolution: {integrity: sha512-zF+hCFuugnYAWMG3UGBXo02AZiMpZsTnohCifLM+f0508YHEhWC0QzO2Y1LcyFxo8JVM89uzWNobJMrcF7G3jw==}
+  /@builder.io/qwik-city@1.1.2:
+    resolution: {integrity: sha512-rA0Q9c/A6b3qpAI+opizRgwO0rLXvU+AdJomUtnHX4D/H8XZisbCLVLM8hrDmPckmADgNcHMJlxaawiGPgVqaA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
@@ -1433,8 +1433,8 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik@1.1.1(undici@5.22.1):
-    resolution: {integrity: sha512-Bv1Ei2kV4glny3W5zQqpz/zwoxqdCcZ03InLyVY61UbnE2ruAZutH3WfGSNt9CjlK7EXHvPOAw0lb3/xWXAPvQ==}
+  /@builder.io/qwik@1.1.2(undici@5.22.1):
+    resolution: {integrity: sha512-oOif/cXd0EYi+lFprWkGeRoI+9MiUKpdwTqjk19L8OYzTo8XQ+X2OhgBzOkCKjGF32eJdRWYWFXKZyHlhHlg/g==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -1443,12 +1443,12 @@ packages:
       undici: 5.22.1
     dev: true
 
-  /@builder.io/sdk-qwik@0.3.0(@builder.io/qwik@1.1.1):
+  /@builder.io/sdk-qwik@0.3.0(@builder.io/qwik@1.1.2):
     resolution: {integrity: sha512-EzN/fiCMEVzRFccM0S9OMusLgcBqnYZVRnX5HiPKkKCGbP0P0xmpe5Q0drqKIUVyGx6mpoExQ18gfQiPIcvCeA==}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
     dependencies:
-      '@builder.io/qwik': 1.1.1(undici@5.22.1)
+      '@builder.io/qwik': 1.1.2(undici@5.22.1)
     dev: true
 
   /@colors/colors@1.5.0:
@@ -5162,13 +5162,13 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.1.1)(cypress@12.12.0):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.1.2)(cypress@12.12.0):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
       cypress: '>=12.8.1'
     dependencies:
-      '@builder.io/qwik': 1.1.1(undici@5.22.1)
+      '@builder.io/qwik': 1.1.2(undici@5.22.1)
       '@cypress/mount-utils': 4.0.0
       cypress: 12.12.0
     dev: true
@@ -5982,8 +5982,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-plugin-qwik@1.1.1(eslint@8.40.0):
-    resolution: {integrity: sha512-/8UTrugT0fym9L7gmEzWt30WJCK0bKJFAwaVr/oD4CDfl0s68CDaRWvafTsNHqDSQDVrOtCVW+U51U4zMALKmw==}
+  /eslint-plugin-qwik@1.1.2(eslint@8.40.0):
+    resolution: {integrity: sha512-zeMi7uVE50tnfmKUr/g7fznDKZohdHX45CApQP+Uu8tffTe7iHYJQJG0EBrbqF32dTQtrFV/f8KFsgoZV4P9lg==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: '>= 8'
@@ -10609,20 +10609,20 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.0(@builder.io/qwik@1.1.1)(typescript@5.0.4)(vite@4.3.5):
+  /storybook-framework-qwik@0.2.0(@builder.io/qwik@1.1.2)(typescript@5.0.4)(vite@4.3.5):
     resolution: {integrity: sha512-qu8aRd4PZSCPmCyQSVFBzXxrF0G54JWBao3GRy5MjD0CxO7NvxNTevXOwVb/aF5pzawXb3nkz4RiG5X1MlolRQ==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.1.1(undici@5.22.1)
+      '@builder.io/qwik': 1.1.2(undici@5.22.1)
       '@storybook/builder-vite': 7.0.11(typescript@5.0.4)(vite@4.3.5)
       '@storybook/docs-tools': 7.0.11
       '@storybook/types': 7.0.11
       magic-string: 0.30.0
       react-docgen-typescript: 2.2.2(typescript@5.0.4)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.1.1
+      '@builder.io/qwik-city': 1.1.2
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - supports-color
