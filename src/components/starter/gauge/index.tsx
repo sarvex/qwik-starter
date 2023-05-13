@@ -23,8 +23,7 @@ export default component$(({ value = 50 }: { value?: number }) => {
           stroke-width="8"
           style={`transform: rotate(-87.9537deg); stroke-dasharray: ${
             safeValue * 3.51
-          }, 351.858; fill:none; transform-origin:50% 50%; stroke-linecap:round; stroke:url(#gradient)`}
-        ></circle>
+          }, 351.858; fill:none; transform-origin:50% 50%; stroke-linecap:round; stroke:url(#gradient)`}></circle>
       </svg>
       <span class={styles.value}>{safeValue}</span>
     </div>
