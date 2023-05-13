@@ -42,8 +42,7 @@ export default component$(() => {
         class={{
           host: true,
           pride: loc.url.searchParams.get('pride') === 'true',
-        }}
-      >
+        }}>
         {Array.from({ length: state.number }, (_, i) => (
           <div
             key={i}

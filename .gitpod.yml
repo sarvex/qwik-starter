@@ -1,0 +1,7 @@
+tasks:
+  - init: >
+      nvm install 18 &&
+      nvm use 18 &&
+      pnpm install &&
+      pnpm run build
+    command: pnpm run start
