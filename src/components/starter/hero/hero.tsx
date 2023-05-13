@@ -32,8 +32,7 @@ export default component$(() => {
                   return resolve((globalThis as any).confetti as any);
                 }
                 const script = document.createElement('script');
-                script.src =
-                  'https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js';
+                script.src = 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js';
                 script.onload = () => resolve((globalThis as any).confetti as any);
                 script.onerror = reject;
                 document.head.appendChild(script);
@@ -62,8 +61,7 @@ export default component$(() => {
             setTimeout(shoot, 200);
             setTimeout(shoot, 300);
             setTimeout(shoot, 400);
-          }}
-        >
+          }}>
           Time to celebrate
         </button>
         <a href="https://qwik.builder.io/docs" target="_blank" class="button button-dark">
