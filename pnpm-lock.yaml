@@ -113,8 +113,8 @@ devDependencies:
     specifier: 5.22.1
     version: 5.22.1
   vercel:
-    specifier: 29.3.6
-    version: 29.3.6(@types/node@20.1.4)
+    specifier: 30.0.0
+    version: 30.0.0(@types/node@20.1.4)
   vite:
     specifier: 4.3.8
     version: 4.3.8(@types/node@20.1.4)
@@ -11757,8 +11757,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@29.3.6(@types/node@20.1.4):
-    resolution: {integrity: sha512-fwld21d9WoCTUJcbyTWvq0c9VchUCJ2qs0kaczcYo9Vs8+ORnxC8FFgbysR2f7B4iwL2hUxTMEWkQGV2782LjQ==}
+  /vercel@30.0.0(@types/node@20.1.4):
+    resolution: {integrity: sha512-JxpE29jxVTjnBsILc0E4umj6cLFq8H6AsSowGiPz/dxP0lJLwX3QPgDn+qd6GWIc4QDNEnvvkqAJ+7pSKTO04A==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
