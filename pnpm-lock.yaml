@@ -33,13 +33,13 @@ devDependencies:
     version: 7.0.17(react-dom@18.2.0)(react@18.2.0)
   '@storybook/builder-vite':
     specifier: 7.0.17
-    version: 7.0.17(typescript@5.0.4)(vite@4.3.8)
+    version: 7.0.17(typescript@5.0.4)(vite@4.3.9)
   '@storybook/html':
     specifier: 7.0.17
     version: 7.0.17(@babel/core@7.21.8)
   '@storybook/html-vite':
     specifier: 7.0.17
-    version: 7.0.17(@babel/core@7.21.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)(vite@4.3.8)
+    version: 7.0.17(@babel/core@7.21.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)(vite@4.3.9)
   '@types/eslint':
     specifier: 8.40.0
     version: 8.40.0
@@ -93,7 +93,7 @@ devDependencies:
     version: 7.0.17
   storybook-framework-qwik:
     specifier: 0.2.0
-    version: 0.2.0(@builder.io/qwik@1.1.4)(typescript@5.0.4)(vite@4.3.8)
+    version: 0.2.0(@builder.io/qwik@1.1.4)(typescript@5.0.4)(vite@4.3.9)
   stylelint:
     specifier: 15.6.2
     version: 15.6.2
@@ -116,11 +116,11 @@ devDependencies:
     specifier: 30.0.0
     version: 30.0.0(@types/node@20.2.3)
   vite:
-    specifier: 4.3.8
-    version: 4.3.8(@types/node@20.2.3)
+    specifier: 4.3.9
+    version: 4.3.9(@types/node@20.2.3)
   vite-tsconfig-paths:
     specifier: 4.2.0
-    version: 4.2.0(typescript@5.0.4)(vite@4.3.8)
+    version: 4.2.0(typescript@5.0.4)(vite@4.3.9)
   vitest:
     specifier: 0.31.1
     version: 0.31.1(@vitest/ui@0.31.1)
@@ -2718,7 +2718,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.0.17(typescript@5.0.4)(vite@4.3.8):
+  /@storybook/builder-vite@7.0.17(typescript@5.0.4)(vite@4.3.9):
     resolution: {integrity: sha512-x2kbiFjzTHbhMDmCvkQb0V3PXv9V1vHhqMOBCdxAX/V1weGGdAMa8faL7+FOML5fD/tDbaUEVWbOyq3n3+nwEQ==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -2754,7 +2754,7 @@ packages:
       remark-slug: 6.1.0
       rollup: 3.21.6
       typescript: 5.0.4
-      vite: 4.3.8(@types/node@20.2.3)
+      vite: 4.3.9(@types/node@20.2.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3091,12 +3091,12 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/html-vite@7.0.17(@babel/core@7.21.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)(vite@4.3.8):
+  /@storybook/html-vite@7.0.17(@babel/core@7.21.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)(vite@4.3.9):
     resolution: {integrity: sha512-PVzULGYOUTV9L37LKWjcDomPu3IohZjfoYcJ14UkfKM/94YrDCTGcqc31Dyqdc6TfauPnYS6cZLnOTD85oI1Dg==}
     engines: {node: ^14.18 || >=16}
     dependencies:
       '@storybook/addons': 7.0.17(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/builder-vite': 7.0.17(typescript@5.0.4)(vite@4.3.8)
+      '@storybook/builder-vite': 7.0.17(typescript@5.0.4)(vite@4.3.9)
       '@storybook/channel-postmessage': 7.0.17
       '@storybook/channel-websocket': 7.0.17
       '@storybook/client-api': 7.0.17
@@ -3860,7 +3860,7 @@ packages:
       lodash: 4.17.21
       mlly: 1.2.1
       outdent: 0.8.0
-      vite: 4.3.8(@types/node@20.2.3)
+      vite: 4.3.9(@types/node@20.2.3)
       vite-node: 0.28.5(@types/node@20.2.3)
     transitivePeerDependencies:
       - '@types/node'
@@ -10712,14 +10712,14 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.0(@builder.io/qwik@1.1.4)(typescript@5.0.4)(vite@4.3.8):
+  /storybook-framework-qwik@0.2.0(@builder.io/qwik@1.1.4)(typescript@5.0.4)(vite@4.3.9):
     resolution: {integrity: sha512-qu8aRd4PZSCPmCyQSVFBzXxrF0G54JWBao3GRy5MjD0CxO7NvxNTevXOwVb/aF5pzawXb3nkz4RiG5X1MlolRQ==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
       '@builder.io/qwik': 1.1.4(undici@5.22.1)
-      '@storybook/builder-vite': 7.0.17(typescript@5.0.4)(vite@4.3.8)
+      '@storybook/builder-vite': 7.0.17(typescript@5.0.4)(vite@4.3.9)
       '@storybook/docs-tools': 7.0.11
       '@storybook/types': 7.0.11
       magic-string: 0.30.0
@@ -11837,7 +11837,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.3.8(@types/node@20.2.3)
+      vite: 4.3.9(@types/node@20.2.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -11858,7 +11858,7 @@ packages:
       mlly: 1.2.1
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.8(@types/node@20.2.3)
+      vite: 4.3.9(@types/node@20.2.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -11869,7 +11869,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.2.0(typescript@5.0.4)(vite@4.3.8):
+  /vite-tsconfig-paths@4.2.0(typescript@5.0.4)(vite@4.3.9):
     resolution: {integrity: sha512-jGpus0eUy5qbbMVGiTxCL1iB9ZGN6Bd37VGLJU39kTDD6ZfULTTb1bcc5IeTWqWJKiWV5YihCaibeASPiGi8kw==}
     peerDependencies:
       vite: '*'
@@ -11880,14 +11880,14 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.0.4)
-      vite: 4.3.8(@types/node@20.2.3)
+      vite: 4.3.9(@types/node@20.2.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.3.8(@types/node@20.2.3):
-    resolution: {integrity: sha512-uYB8PwN7hbMrf4j1xzGDk/lqjsZvCDbt/JC5dyfxc19Pg8kRm14LinK/uq+HSLNswZEoKmweGdtpbnxRtrAXiQ==}
+  /vite@4.3.9(@types/node@20.2.3):
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -11973,7 +11973,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.5.0
-      vite: 4.3.8(@types/node@20.2.3)
+      vite: 4.3.9(@types/node@20.2.3)
       vite-node: 0.31.1(@types/node@20.2.3)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
