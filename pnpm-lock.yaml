@@ -63,11 +63,11 @@ devDependencies:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.24)
   cypress:
-    specifier: 12.13.0
-    version: 12.13.0
+    specifier: 12.14.0
+    version: 12.14.0
   cypress-ct-qwik:
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.1.4)(cypress@12.13.0)
+    version: 0.3.0(@builder.io/qwik@1.1.4)(cypress@12.14.0)
   eslint:
     specifier: 8.42.0
     version: 8.42.0
@@ -5167,7 +5167,7 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.1.4)(cypress@12.13.0):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.1.4)(cypress@12.14.0):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
@@ -5175,11 +5175,11 @@ packages:
     dependencies:
       '@builder.io/qwik': 1.1.4(undici@5.22.1)
       '@cypress/mount-utils': 4.0.0
-      cypress: 12.13.0
+      cypress: 12.14.0
     dev: true
 
-  /cypress@12.13.0:
-    resolution: {integrity: sha512-QJlSmdPk+53Zhy69woJMySZQJoWfEWun3X5OOenGsXjRPVfByVTHorxNehbzhZrEzH9RDUDqVcck0ahtlS+N/Q==}
+  /cypress@12.14.0:
+    resolution: {integrity: sha512-HiLIXKXZaIT1RT7sw1sVPt+qKtis3uYNm6KwC4qoYjabwLKaqZlyS/P+uVvvlBNcHIwL/BC6nQZajpbUd7hOgQ==}
     engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     hasBin: true
     requiresBuild: true
