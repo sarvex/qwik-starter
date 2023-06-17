@@ -62,7 +62,7 @@
     "autoprefixer": "10.4.14",
     "cypress": "12.14.0",
     "cypress-ct-qwik": "0.3.0",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "eslint-plugin-qwik": "1.1.5",
     "husky": "8.0.3",
     "lint-staged": "13.2.2",
