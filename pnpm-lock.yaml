@@ -63,11 +63,11 @@ devDependencies:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.25)
   cypress:
-    specifier: 12.17.0
-    version: 12.17.0
+    specifier: 12.17.1
+    version: 12.17.1
   cypress-ct-qwik:
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.2.6)(cypress@12.17.0)
+    version: 0.3.0(@builder.io/qwik@1.2.6)(cypress@12.17.1)
   eslint:
     specifier: 8.44.0
     version: 8.44.0
@@ -117,8 +117,8 @@ devDependencies:
     specifier: 5.22.1
     version: 5.22.1
   vercel:
-    specifier: 31.0.1
-    version: 31.0.1(@types/node@20.3.2)
+    specifier: 31.0.2
+    version: 31.0.2(@types/node@20.3.2)
   vite:
     specifier: 4.3.9
     version: 4.3.9(@types/node@20.3.2)
@@ -2203,7 +2203,7 @@ packages:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.5.1
+      semver: 7.5.4
       tar: 6.1.14
     transitivePeerDependencies:
       - encoding
@@ -2277,7 +2277,7 @@ packages:
     resolution: {integrity: sha512-8KG5RD0GVP4ydEzRn/I4BNDuxDtqVbOdm8675T49OIG/NGhaK0pjPX7ZcDlvKYbA+ulvVK3ztfcF4uBdOxuJbQ==}
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.5.1
+      semver: 7.5.4
     dev: true
 
   /@npmcli/move-file@1.1.2:
@@ -2334,16 +2334,16 @@ packages:
     requiresBuild: true
     dev: true
 
-  /@remix-run/router@1.7.0:
-    resolution: {integrity: sha512-Eu1V3kz3mV0wUpVTiFHuaT8UD1gj/0VnoFHQYX35xlslQUpe8CuYoKFn9d4WZFHm3yDywz6ALZuGdnUPKrNeAw==}
+  /@remix-run/router@1.7.1:
+    resolution: {integrity: sha512-bgVQM4ZJ2u2CM8k1ey70o1ePFXsEzYVZoWghh6WjM8p59jQ7HxzbHW4SbnWFG7V9ig9chLawQxDTZ3xzOF8MkQ==}
     engines: {node: '>=14'}
     dev: true
 
-  /@remix-run/server-runtime@1.18.0:
-    resolution: {integrity: sha512-iiSKgGIWMkvf4ftnjGBmIJpgqxRwv8XQilAINapaYsx1zEM6egZGYE6WvaxLuRQSceZZNgLAYzL48TmK+DAU5g==}
+  /@remix-run/server-runtime@1.18.1:
+    resolution: {integrity: sha512-E0sQlgUQG2ytFmUH7zRH7n2MufnP6WWWq1KpRoiuwJZxfTFIzaiCCIiNqbP/uXGWDGcwEevpawNUzzszL1tT0w==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@remix-run/router': 1.7.0
+      '@remix-run/router': 1.7.1
       '@types/cookie': 0.4.1
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.4.2
@@ -3219,7 +3219,7 @@ packages:
       memoizerific: 1.11.3
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      semver: 7.5.1
+      semver: 7.5.4
       store2: 2.14.2
       telejson: 7.1.0
       ts-dedent: 2.2.0
@@ -3888,7 +3888,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.61.0(typescript@5.1.6)
       eslint: 8.44.0
       eslint-scope: 5.1.1
-      semver: 7.5.1
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3956,8 +3956,8 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vercel/build-utils@6.8.0:
-    resolution: {integrity: sha512-rGKTC1wCJeHvyEM4Td35M528XYPECcrb5xNF1k784BTVW4GicH6AQxr2YunfK+zkMBeR9WmG7fFAzEg38FLarw==}
+  /@vercel/build-utils@6.8.1:
+    resolution: {integrity: sha512-Mydqg+6tAct33j3d3fjSQ9DJj1dsaAuY07glwzGf1NKGMqbfReeZmPl9VcAJ1CBsCBeM4NfJEioS91qK2mcqJA==}
     dev: true
 
   /@vercel/error-utils@1.0.10:
@@ -3971,12 +3971,12 @@ packages:
       web-vitals: 0.2.4
     dev: true
 
-  /@vercel/gatsby-plugin-vercel-builder@1.3.11:
-    resolution: {integrity: sha512-e+HY3OHC89NRTwcIlxZ3BdOnZ11xgAkA185Z+tkCLUNLowAigwdPxnelGcqSQaGTguwf+3nWxi8GUDYwtHi6/Q==}
+  /@vercel/gatsby-plugin-vercel-builder@1.3.12:
+    resolution: {integrity: sha512-9xvDsqxiPAdlO4eSwlhDZHoBb1XZwZ5KI7VtdUx31FoRTJy1mwd5dKmwLUWQF1Yc5WU7CTyaZ8n4fxiMJxUpSA==}
     dependencies:
       '@sinclair/typebox': 0.25.24
-      '@vercel/build-utils': 6.8.0
-      '@vercel/node': 2.15.3
+      '@vercel/build-utils': 6.8.1
+      '@vercel/node': 2.15.4
       '@vercel/routing-utils': 2.2.1
       esbuild: 0.14.47
       etag: 1.8.1
@@ -4020,15 +4020,15 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/node@2.15.3:
-    resolution: {integrity: sha512-kqti7lE6TT3sESXMsCm4lqtNXjyKr9P7+yhjDDL/TIzqfhqPLuiYmkiKYVNctnsdLrzDi9Cp2qaQA2a9/jpv1g==}
+  /@vercel/node@2.15.4:
+    resolution: {integrity: sha512-lJ0KytaD4dEpNd0YpGxIYaS35MINdpTI5r2H0AveTen7M0NDUkBx9+sElvIZKFDRVP0mQINSUbllKYD7QT1mUA==}
     dependencies:
       '@edge-runtime/node-utils': 2.0.3
       '@edge-runtime/primitives': 2.1.2
       '@edge-runtime/vm': 3.0.1
       '@types/node': 14.18.33
       '@types/node-fetch': 2.6.3
-      '@vercel/build-utils': 6.8.0
+      '@vercel/build-utils': 6.8.1
       '@vercel/error-utils': 1.0.10
       '@vercel/static-config': 2.0.17
       async-listen: 3.0.0
@@ -4061,11 +4061,11 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/remix-builder@1.8.15(@types/node@20.3.2):
-    resolution: {integrity: sha512-NV6YU2hwj1faLpldKEQmYWJ6+aGYUJLx2sCkWoEQy+WP9i4wHw0c3u+y+PfMlr3VBn1VIlDh1awf0NRXMcIEQg==}
+  /@vercel/remix-builder@1.8.16(@types/node@20.3.2):
+    resolution: {integrity: sha512-yf4FyecPPa2WCBMrd46Urm2XuGL82SqQVUYe99RSYYEgj18mK2Wez7R2uba/EHrxUGh0gB1gM82gWrUOTuT6cQ==}
     dependencies:
-      '@remix-run/dev': /@vercel/remix-run-dev@1.18.0(@types/node@20.3.2)
-      '@vercel/build-utils': 6.8.0
+      '@remix-run/dev': /@vercel/remix-run-dev@1.18.1(@types/node@20.3.2)
+      '@vercel/build-utils': 6.8.1
       '@vercel/nft': 0.22.5
       '@vercel/static-config': 2.0.17
       path-to-regexp: 6.2.1
@@ -4087,12 +4087,12 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@vercel/remix-run-dev@1.18.0(@types/node@20.3.2):
-    resolution: {integrity: sha512-5vGcc3OTBLZImKY0BMXDXDqdh0mjh4ZqptI9eRwXZ9O5AfGp4Ce7Q8tNldazBVOJMM4fGgLeXRIOTfuRDe5tDA==}
+  /@vercel/remix-run-dev@1.18.1(@types/node@20.3.2):
+    resolution: {integrity: sha512-V9RCT+3VDB0wLbwq8Dp0XO6Cc1LxY4tCyxJ5loyX0L8sPBCgQ3/vMre3VKr8jLhjnfUGSrbXADxFM8/bq4ZeDQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
-      '@remix-run/serve': ^1.18.0
+      '@remix-run/serve': ^1.18.1
     peerDependenciesMeta:
       '@remix-run/serve':
         optional: true
@@ -4107,7 +4107,7 @@ packages:
       '@babel/traverse': 7.21.5
       '@babel/types': 7.21.5
       '@npmcli/package-json': 2.0.0
-      '@remix-run/server-runtime': 1.18.0
+      '@remix-run/server-runtime': 1.18.1
       '@vanilla-extract/integration': 6.2.1(@types/node@20.3.2)
       arg: 5.0.2
       cacache: 15.3.0
@@ -4145,7 +4145,7 @@ packages:
       recast: 0.21.5
       remark-frontmatter: 4.0.1
       remark-mdx-frontmatter: 1.1.1
-      semver: 7.5.1
+      semver: 7.5.4
       sort-package-json: 1.57.0
       tar-fs: 2.1.1
       tsconfig-paths: 4.2.0
@@ -4178,11 +4178,11 @@ packages:
     resolution: {integrity: sha512-J8I0B7wAn8piGoPhBroBfJWgMEJTMEL/2o8MCoCyWdaE7MRtpXhI10pj8IvcUvAECoGJ+SM1Pm+SvBqtbtZ5FQ==}
     dev: true
 
-  /@vercel/static-build@1.3.38:
-    resolution: {integrity: sha512-fm2msCefaFTOttvMoNp+/AOpwQLP79NbTZxDuEwE3CU4YUCNOrTaYTGj7ye99Qv+GcL66f4JyCrbBa7CKwmL8A==}
+  /@vercel/static-build@1.3.39:
+    resolution: {integrity: sha512-OtYr8fKFNAlIHsO0Cfu8OpWTI2BS3f+jmy9Pc2r6XyDZoay0eZYHk4G090gdUqyQxNUSj91/Bk6qUqfk3Lm84Q==}
     dependencies:
       '@vercel/gatsby-plugin-vercel-analytics': 1.0.10
-      '@vercel/gatsby-plugin-vercel-builder': 1.3.11
+      '@vercel/gatsby-plugin-vercel-builder': 1.3.12
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -5359,7 +5359,7 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.6)(cypress@12.17.0):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.6)(cypress@12.17.1):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
@@ -5367,11 +5367,11 @@ packages:
     dependencies:
       '@builder.io/qwik': 1.2.6(undici@5.22.1)
       '@cypress/mount-utils': 4.0.0
-      cypress: 12.17.0
+      cypress: 12.17.1
     dev: true
 
-  /cypress@12.17.0:
-    resolution: {integrity: sha512-nq0ug8Zrjq/2khHU1PTNxg+3/n1oqtmAFCxwQhS6QzkQ4mR6RLitX+cGIOuIMfnEbDAtVub0hZh661FOA16JxA==}
+  /cypress@12.17.1:
+    resolution: {integrity: sha512-eKfBgO6t8waEyhegL4gxD7tcI6uTCGttu+ZU7y9Hq8BlpMztd7iLeIF4AJFAnbZH1xjX+wwgg4cRKFNSvv3VWQ==}
     engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     hasBin: true
     requiresBuild: true
@@ -9169,7 +9169,7 @@ packages:
     resolution: {integrity: sha512-iwXuFrMAcFVi/ZoZiqq8BzAdsLw9kxDfTC0HMyjXfSL/6CSDAGD5UmR7azrAgWV1zKYq7dUUMj4owusBWKLsiQ==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.5.1
+      semver: 7.5.4
     dev: true
 
   /node-addon-api@1.7.2:
@@ -9252,7 +9252,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.12.0
-      semver: 7.5.1
+      semver: 7.5.4
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -10746,7 +10746,7 @@ packages:
       detect-libc: 2.0.1
       node-addon-api: 6.1.0
       prebuild-install: 7.1.1
-      semver: 7.5.1
+      semver: 7.5.4
       simple-get: 4.0.1
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
@@ -12074,22 +12074,21 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@31.0.1(@types/node@20.3.2):
-    resolution: {integrity: sha512-Tf6PsIseRtAw/PETRfBdGqnbG/el1g0prwaKCXm6Dq5CcKRoya3ntT2E38fHE9pXIPDqE1XdTn9F1crKm8sKAQ==}
+  /vercel@31.0.2(@types/node@20.3.2):
+    resolution: {integrity: sha512-5rOZd7TvFcbYN2MaSajuQm2cWeDHmBY4C8+yl1TWr7AtMBTD6kAlVHPV0BiCR+/VTkPzNd54+F/QYKvmWIkDUg==}
     engines: {node: '>= 14'}
     hasBin: true
-    requiresBuild: true
     dependencies:
-      '@vercel/build-utils': 6.8.0
+      '@vercel/build-utils': 6.8.1
       '@vercel/go': 2.5.1
       '@vercel/hydrogen': 0.0.64
       '@vercel/next': 3.8.8
-      '@vercel/node': 2.15.3
+      '@vercel/node': 2.15.4
       '@vercel/python': 3.1.60
       '@vercel/redwood': 1.1.15
-      '@vercel/remix-builder': 1.8.15(@types/node@20.3.2)
+      '@vercel/remix-builder': 1.8.16(@types/node@20.3.2)
       '@vercel/ruby': 1.3.76
-      '@vercel/static-build': 1.3.38
+      '@vercel/static-build': 1.3.39
     transitivePeerDependencies:
       - '@remix-run/serve'
       - '@swc/core'
@@ -12312,6 +12311,7 @@ packages:
   /vm2@3.9.17:
     resolution: {integrity: sha512-AqwtCnZ/ERcX+AVj9vUsphY56YANXxRuqMb7GsDtAr0m0PcQX3u0Aj3KWiXM0YAHy7i6JEeHrwOnwXbGYgRpAw==}
     engines: {node: '>=6.0'}
+    deprecated: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
     hasBin: true
     dependencies:
       acorn: 8.9.0
