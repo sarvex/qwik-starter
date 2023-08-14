@@ -10,13 +10,13 @@ devDependencies:
     version: 0.8.0
   '@builder.io/qwik':
     specifier: 1.2.6
-    version: 1.2.6(undici@5.22.1)
+    version: 1.2.6(undici@5.23.0)
   '@builder.io/qwik-city':
     specifier: 1.2.6
     version: 1.2.6
   '@builder.io/sdk-qwik':
     specifier: 0.5.8
-    version: 0.5.8(@builder.io/qwik@1.2.6)(undici@5.22.1)
+    version: 0.5.8(@builder.io/qwik@1.2.6)(undici@5.23.0)
   '@ls-lint/ls-lint':
     specifier: 2.0.1
     version: 2.0.1
@@ -114,8 +114,8 @@ devDependencies:
     specifier: 5.1.6
     version: 5.1.6
   undici:
-    specifier: 5.22.1
-    version: 5.22.1
+    specifier: 5.23.0
+    version: 5.23.0
   vercel:
     specifier: 31.2.3
     version: 31.2.3
@@ -1531,7 +1531,7 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik@1.2.6(undici@5.22.1):
+  /@builder.io/qwik@1.2.6(undici@5.23.0):
     resolution: {integrity: sha512-Cm1sLAimML55I5T1RI80R1lLgI4cnSeQt5obQtcMKa8wMmf2/luEyQaEkeN2fV3sp/gaVXCfAuKaddXK6ONdww==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -1539,17 +1539,17 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.22.1
+      undici: 5.23.0
     dev: true
 
-  /@builder.io/sdk-qwik@0.5.8(@builder.io/qwik@1.2.6)(undici@5.22.1):
+  /@builder.io/sdk-qwik@0.5.8(@builder.io/qwik@1.2.6)(undici@5.23.0):
     resolution: {integrity: sha512-trHaPHHv0BVCB43gog2+98P4Enh15wseyWJeVEC7RhwHJYaWd8mZMNIuGzDxMrX1SZs2GdJSYUNjc+6+v2+C2Q==}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
       undici: ^5.14.0
     dependencies:
-      '@builder.io/qwik': 1.2.6(undici@5.22.1)
-      undici: 5.22.1
+      '@builder.io/qwik': 1.2.6(undici@5.23.0)
+      undici: 5.23.0
     dev: true
 
   /@colors/colors@1.5.0:
@@ -5618,7 +5618,7 @@ packages:
       '@builder.io/qwik': '>0.23.0'
       cypress: '>=12.8.1'
     dependencies:
-      '@builder.io/qwik': 1.2.6(undici@5.22.1)
+      '@builder.io/qwik': 1.2.6(undici@5.23.0)
       '@cypress/mount-utils': 4.0.0
       cypress: 12.17.3
     dev: true
@@ -10571,7 +10571,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.2.6(undici@5.22.1)
+      '@builder.io/qwik': 1.2.6(undici@5.23.0)
       '@storybook/builder-vite': 7.2.3(typescript@5.1.6)(vite@4.4.9)
       '@storybook/docs-tools': 7.0.24
       magic-string: 0.30.0
@@ -11352,8 +11352,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici@5.22.1:
-    resolution: {integrity: sha512-Ji2IJhFXZY0x/0tVBXeQwgPlLWw13GVzpsWPQ3rV50IFMMof2I55PZZxtm4P6iNq+L5znYN9nSTAq0ZyE6lSJw==}
+  /undici@5.23.0:
+    resolution: {integrity: sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==}
     engines: {node: '>=14.0'}
     dependencies:
       busboy: 1.6.0
