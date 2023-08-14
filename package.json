@@ -46,7 +46,7 @@
     "@builder.io/qwik-city": "1.2.6",
     "@builder.io/sdk-qwik": "0.5.8",
     "@ls-lint/ls-lint": "2.0.1",
-    "@playwright/test": "1.36.2",
+    "@playwright/test": "1.37.0",
     "@prisma/client": "5.1.1",
     "@storybook/addon-essentials": "7.2.3",
     "@storybook/addon-links": "7.2.3",
