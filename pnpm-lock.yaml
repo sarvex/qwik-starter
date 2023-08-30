@@ -15,8 +15,8 @@ devDependencies:
     specifier: 1.2.10
     version: 1.2.10
   '@builder.io/sdk-qwik':
-    specifier: 0.5.9
-    version: 0.5.9(@builder.io/qwik@1.2.10)(undici@5.23.0)
+    specifier: 0.6.2
+    version: 0.6.2(@builder.io/qwik@1.2.10)(undici@5.23.0)
   '@ls-lint/ls-lint':
     specifier: 2.0.1
     version: 2.0.1
@@ -1542,8 +1542,8 @@ packages:
       undici: 5.23.0
     dev: true
 
-  /@builder.io/sdk-qwik@0.5.9(@builder.io/qwik@1.2.10)(undici@5.23.0):
-    resolution: {integrity: sha512-cZ58rySrTql2ijYuzMw0MQN0YSdEgWL9VITow6JAWwg06RhGmdPA9kdXdZ2rjeLjsOTra6K9ldYhnKjZm761pg==}
+  /@builder.io/sdk-qwik@0.6.2(@builder.io/qwik@1.2.10)(undici@5.23.0):
+    resolution: {integrity: sha512-xBnFD1r//uoVgMiwmyOuwE289b5khtlGrtQBFJnBSTgnN3f1J84tW1xGKc2YllbjSdGdCvnEzfHZXJVM0F8jlg==}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
       undici: ^5.14.0
