@@ -18,8 +18,8 @@ devDependencies:
     specifier: 0.6.2
     version: 0.6.2(@builder.io/qwik@1.2.10)(undici@5.23.0)
   '@ls-lint/ls-lint':
-    specifier: 2.0.1
-    version: 2.0.1
+    specifier: 2.1.0
+    version: 2.1.0
   '@playwright/test':
     specifier: 1.37.1
     version: 1.37.1
@@ -2284,8 +2284,8 @@ packages:
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
     dev: true
 
-  /@ls-lint/ls-lint@2.0.1:
-    resolution: {integrity: sha512-z+sGTPWHQ2nWRj2UsDFSEQDOCw2iIjP2bPU/K1wgLNkWUv7J8WjzoBsZLgUqIgD1Sqi7zpksFTtTymgnUwramA==}
+  /@ls-lint/ls-lint@2.1.0:
+    resolution: {integrity: sha512-WvyZf2TKUstZYVetDFbQF1kp5Wd2AJX50nqsmewwrHpEcLVCU8RDoqfBBnYHoaBxTRZcWjfNnnuLCBofkH5nEA==}
     cpu: [x64, arm64, s390x]
     os: [darwin, linux, win32]
     hasBin: true
