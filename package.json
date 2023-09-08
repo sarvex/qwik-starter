@@ -41,7 +41,7 @@
     "test.unit": "vitest components"
   },
   "devDependencies": {
-    "@builder.io/partytown": "0.8.0",
+    "@builder.io/partytown": "0.8.1",
     "@builder.io/qwik": "1.2.10",
     "@builder.io/qwik-city": "1.2.10",
     "@builder.io/sdk-qwik": "0.6.2",
