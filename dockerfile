@@ -1,5 +1,5 @@
 # Intermediate docker image to build the bundle in and install dependencies
-FROM node:20-alpine as build
+FROM node:21-alpine as build
 
 # Set the working directory to /app
 WORKDIR /app
@@ -19,7 +19,7 @@ COPY ./ ./
 RUN npm run build
 
 # Pull the same Node image and use it as the final (production image)
-FROM node:20-alpine as production
+FROM node:21-alpine as production
 
 # Set the working directory to /app
 WORKDIR /app
