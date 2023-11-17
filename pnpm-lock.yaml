@@ -12,14 +12,14 @@ devDependencies:
     specifier: 0.8.1
     version: 0.8.1
   '@builder.io/qwik':
-    specifier: 1.2.17
-    version: 1.2.17(@types/node@20.9.0)(undici@5.27.2)
+    specifier: 1.2.18
+    version: 1.2.18(@types/node@20.9.1)(undici@5.27.2)
   '@builder.io/qwik-city':
-    specifier: 1.2.17
-    version: 1.2.17(@types/node@20.9.0)
+    specifier: 1.2.18
+    version: 1.2.18(@types/node@20.9.1)
   '@builder.io/sdk-qwik':
     specifier: 0.7.0
-    version: 0.7.0(@builder.io/qwik@1.2.17)(undici@5.27.2)
+    version: 0.7.0(@builder.io/qwik@1.2.18)(undici@5.27.2)
   '@ls-lint/ls-lint':
     specifier: 2.2.2
     version: 2.2.2
@@ -51,8 +51,8 @@ devDependencies:
     specifier: 8.44.7
     version: 8.44.7
   '@types/node':
-    specifier: 20.9.0
-    version: 20.9.0
+    specifier: 20.9.1
+    version: 20.9.1
   '@typescript-eslint/eslint-plugin':
     specifier: 6.11.0
     version: 6.11.0(@typescript-eslint/parser@6.11.0)(eslint@8.53.0)(typescript@5.2.2)
@@ -66,17 +66,17 @@ devDependencies:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.31)
   cypress:
-    specifier: 13.5.0
-    version: 13.5.0
+    specifier: 13.5.1
+    version: 13.5.1
   cypress-ct-qwik:
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.2.17)(cypress@13.5.0)
+    version: 0.3.0(@builder.io/qwik@1.2.18)(cypress@13.5.1)
   eslint:
     specifier: 8.53.0
     version: 8.53.0
   eslint-plugin-qwik:
-    specifier: 1.2.17
-    version: 1.2.17(eslint@8.53.0)
+    specifier: 1.2.18
+    version: 1.2.18(eslint@8.53.0)
   husky:
     specifier: 8.0.3
     version: 8.0.3
@@ -97,7 +97,7 @@ devDependencies:
     version: 7.5.3
   storybook-framework-qwik:
     specifier: 0.2.4
-    version: 0.2.4(@builder.io/qwik@1.2.17)(@types/node@20.9.0)(typescript@5.2.2)(vite@5.0.0)
+    version: 0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.9.1)(typescript@5.2.2)(vite@5.0.0)
   stylelint:
     specifier: 15.11.0
     version: 15.11.0
@@ -117,11 +117,11 @@ devDependencies:
     specifier: 5.27.2
     version: 5.27.2
   vercel:
-    specifier: 32.5.3
-    version: 32.5.3
+    specifier: 32.5.5
+    version: 32.5.5
   vite:
     specifier: 5.0.0
-    version: 5.0.0(@types/node@20.9.0)
+    version: 5.0.0(@types/node@20.9.1)
   vite-tsconfig-paths:
     specifier: 4.2.1
     version: 4.2.1(typescript@5.2.2)(vite@5.0.0)
@@ -1532,8 +1532,8 @@ packages:
     hasBin: true
     dev: true
 
-  /@builder.io/qwik-city@1.2.17(@types/node@20.9.0):
-    resolution: {integrity: sha512-aCAjNQZr/DMgdcjqkyPVh1Uqly9urJx3mRu2iteLLy62VB6QYhaHtOHA6WlcwBT8LQGOOVilHEdDNB6hbrOwvQ==}
+  /@builder.io/qwik-city@1.2.18(@types/node@20.9.1):
+    resolution: {integrity: sha512-MfWzMLi0MaoPpI11g4qXVF5mX6hqfjsIS3G+1FUU+x4FIJFcbTu9cMnbaw5YdMOgNdJRS5wf2M++KXVy5oyJ/w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
@@ -1542,7 +1542,7 @@ packages:
       svgo: 3.0.2
       undici: 5.27.2
       vfile: 6.0.1
-      vite: 4.5.0(@types/node@20.9.0)
+      vite: 4.5.0(@types/node@20.9.1)
       vite-imagetools: 5.1.2
       zod: 3.22.4
     transitivePeerDependencies:
@@ -1557,8 +1557,8 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/qwik@1.2.17(@types/node@20.9.0)(undici@5.27.2):
-    resolution: {integrity: sha512-66fGmPHIy/brJqtrUapxckw9EVAh6U3pcjRr1WiqGGjq1cvgJdP88jayMw85XvckEjrF4ymNLOYCmjdlQNzU+Q==}
+  /@builder.io/qwik@1.2.18(@types/node@20.9.1)(undici@5.27.2):
+    resolution: {integrity: sha512-YfkpRI8IoJ6OkIlMoJ4jdjbotZSmBfMtf9ibxbf9vZLgKVLkSbSb4hgpA+NMWwQb/ojgn/6YJ49MwaZP81sm4Q==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -1566,7 +1566,7 @@ packages:
     dependencies:
       csstype: 3.1.2
       undici: 5.27.2
-      vite: 4.5.0(@types/node@20.9.0)
+      vite: 4.5.0(@types/node@20.9.1)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1577,13 +1577,13 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/sdk-qwik@0.7.0(@builder.io/qwik@1.2.17)(undici@5.27.2):
+  /@builder.io/sdk-qwik@0.7.0(@builder.io/qwik@1.2.18)(undici@5.27.2):
     resolution: {integrity: sha512-jhrR2/ARWuRIrVB41XdC4woVBx7PSp3iEeVp+d74bmZEWX8PBigVeWD5eeeyWtG3JtydCmQbh1BZmaeAIscqCg==}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
       undici: ^5.14.0
     dependencies:
-      '@builder.io/qwik': 1.2.17(@types/node@20.9.0)(undici@5.27.2)
+      '@builder.io/qwik': 1.2.18(@types/node@20.9.1)(undici@5.27.2)
       undici: 5.27.2
     dev: true
 
@@ -2274,7 +2274,7 @@ packages:
       '@jest/schemas': 29.6.0
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       '@types/yargs': 17.0.24
       chalk: 4.1.2
     dev: true
@@ -3503,7 +3503,7 @@ packages:
       magic-string: 0.30.1
       rollup: 3.28.0
       typescript: 5.2.2
-      vite: 5.0.0(@types/node@20.9.0)
+      vite: 5.0.0(@types/node@20.9.1)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4128,7 +4128,7 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
     dev: true
 
   /@types/chai-subset@1.3.3:
@@ -4144,13 +4144,13 @@ packages:
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
     dev: true
 
   /@types/cross-spawn@6.0.2:
     resolution: {integrity: sha512-KuwNhp3eza+Rhu8IFI5HUXRP0LIhqH5cAjubUvGXXthh4YYBuP2ntwEX+Cz8GJoZUHlKo247wPWOfA9LYEq4cw==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
     dev: true
 
   /@types/debug@4.1.7:
@@ -4195,7 +4195,7 @@ packages:
   /@types/express-serve-static-core@4.17.35:
     resolution: {integrity: sha512-wALWQwrgiB2AWTT91CB62b6Yt0sNHpznUXeZEcnPU3DRdlDIz74x8Qg1UUYKSVFi+va5vKOLYRBI1bRKiLLKIg==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.1
@@ -4217,7 +4217,7 @@ packages:
   /@types/graceful-fs@4.1.6:
     resolution: {integrity: sha512-Sig0SNORX9fdW+bQuTEovKj3uHcUL6LQKbCrrqb1X7J6/ReAbhCXRAhc+SMejhLELFj2QcyuxmUooZ4bt5ReSw==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
     dev: true
 
   /@types/hast@2.3.4:
@@ -4283,7 +4283,7 @@ packages:
   /@types/node-fetch@2.6.4:
     resolution: {integrity: sha512-1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       form-data: 3.0.1
     dev: true
 
@@ -4299,8 +4299,8 @@ packages:
     resolution: {integrity: sha512-2yrWpBk32tvV/JAd3HNHWuZn/VDN1P+72hWirHnvsvTGSqbANi+kSeuQR9yAHnbvaBvHDsoTdXV0Fe+iRtHLKA==}
     dev: true
 
-  /@types/node@20.9.0:
-    resolution: {integrity: sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==}
+  /@types/node@20.9.1:
+    resolution: {integrity: sha512-HhmzZh5LSJNS5O8jQKpJ/3ZcrrlG6L70hpGqMIAoM9YVD0YBRNWYsfwcXq8VnSjlNpCpgLzMXdiPo+dxcvSmiA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -4353,14 +4353,14 @@ packages:
     resolution: {integrity: sha512-Cwo8LE/0rnvX7kIIa3QHCkcuF21c05Ayb0ZfxPiv0W8VRiZiNW/WuRupHKpqqGVGf7SUA44QSOUKaEd9lIrd/Q==}
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
     dev: true
 
   /@types/serve-static@1.15.1:
     resolution: {integrity: sha512-NUo5XNiAdULrJENtJXZZ3fHtfMolzZwczzBbnAeBbqBwG+LaG6YaJtuwzwGSQZ2wsCrxjEhNNjAkKigy3n8teQ==}
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
     dev: true
 
   /@types/sinonjs__fake-timers@8.1.1:
@@ -4393,7 +4393,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
     dev: true
     optional: true
 
@@ -4532,8 +4532,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vercel/build-utils@7.2.3:
-    resolution: {integrity: sha512-mo1w4SXUN+obQlg9wMTdc9xLJnrfubpreZmOTyK70icOcCEOXP5sKm044/PM2GZrzkWIXYYAfcMxNnOmWQMR0g==}
+  /@vercel/build-utils@7.2.5:
+    resolution: {integrity: sha512-rlXL7Kjwfl8c8CQ9fYpP/+AunFZbaXXf89OT+7G8E/CGRM+hAYrGF+N3Kz1X8TfwfNlSCqPs7VQriOKKajUS0g==}
     dev: true
 
   /@vercel/error-utils@2.0.2:
@@ -4575,11 +4575,11 @@ packages:
       web-vitals: 0.2.4
     dev: true
 
-  /@vercel/gatsby-plugin-vercel-builder@2.0.9:
-    resolution: {integrity: sha512-TwGki2MRL4o75ji/4MOjjpfKP6vq87oME/qpBpcWl+CYt/mx3NaWnNwjhEoEkakrZrrHp0Aw9HYBeAksWsjudw==}
+  /@vercel/gatsby-plugin-vercel-builder@2.0.11:
+    resolution: {integrity: sha512-2G83Rj1gxL6X1/Cc0di+10xQ/ZYaaI1Mhi7kC8rUVApWY4cNJfFPsogB+DQ/fC6m+YAh3qajcbF6pnmVZk5K3Q==}
     dependencies:
       '@sinclair/typebox': 0.25.24
-      '@vercel/build-utils': 7.2.3
+      '@vercel/build-utils': 7.2.5
       '@vercel/routing-utils': 3.1.0
       esbuild: 0.14.47
       etag: 1.8.1
@@ -4627,14 +4627,14 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/node@3.0.9:
-    resolution: {integrity: sha512-vDkxXdO6aZQWrvYOZpUtz7WTcpdUn2cgjmqdEztjK3tnXAp988FcCNTivGG/uDUmsQPIQ/XQvUjkBRLlIWTSeA==}
+  /@vercel/node@3.0.11:
+    resolution: {integrity: sha512-J6ETfnfHNCnomEaEVTdbr/J1t1+SDYTx7nawCRux+Gn2JDrQ6y1K0YIi61FLLd7uIhShqJ4DzfImih7zKxxeeg==}
     dependencies:
       '@edge-runtime/node-utils': 2.2.1
       '@edge-runtime/primitives': 4.0.5
       '@edge-runtime/vm': 3.1.7
       '@types/node': 14.18.33
-      '@vercel/build-utils': 7.2.3
+      '@vercel/build-utils': 7.2.5
       '@vercel/error-utils': 2.0.2
       '@vercel/nft': 0.24.2
       '@vercel/static-config': 3.0.0
@@ -4694,11 +4694,11 @@ packages:
     resolution: {integrity: sha512-MqFynhtZ905L210DWAbgkiEQEK39LTtp9eL2Nm6PjzhjNzU6hV0UfK8Z24vU9CC6J4mrUTTZx396fH7XTYJWqg==}
     dev: true
 
-  /@vercel/static-build@2.0.10:
-    resolution: {integrity: sha512-H3YM60+Jx/X9YbHrPaQYflJiSC5fQu9R39j+njIAQAQHiitiqFAnFEzQfOXSp52csb0uJ9XacL94vjzQ/T2S5w==}
+  /@vercel/static-build@2.0.12:
+    resolution: {integrity: sha512-7X7fhkdoxOInbjvXcswiv7AtAj9a1A/DojJuHh8iDNBMOti/umNSjEp1Orzm7sr7qmLEuSAcZrGoBa8R5jVKEQ==}
     dependencies:
       '@vercel/gatsby-plugin-vercel-analytics': 1.0.11
-      '@vercel/gatsby-plugin-vercel-builder': 2.0.9
+      '@vercel/gatsby-plugin-vercel-builder': 2.0.11
       '@vercel/static-config': 3.0.0
       ts-morph: 12.0.0
     dev: true
@@ -5512,7 +5512,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /chownr@1.1.4:
@@ -5859,19 +5859,19 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.17)(cypress@13.5.0):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.18)(cypress@13.5.1):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
       cypress: '>=12.8.1'
     dependencies:
-      '@builder.io/qwik': 1.2.17(@types/node@20.9.0)(undici@5.27.2)
+      '@builder.io/qwik': 1.2.18(@types/node@20.9.1)(undici@5.27.2)
       '@cypress/mount-utils': 4.0.0
-      cypress: 13.5.0
+      cypress: 13.5.1
     dev: true
 
-  /cypress@13.5.0:
-    resolution: {integrity: sha512-oh6U7h9w8wwHfzNDJQ6wVcAeXu31DlIYlNOBvfd6U4CcB8oe4akawQmH+QJVOMZlM42eBoCne015+svVqdwdRQ==}
+  /cypress@13.5.1:
+    resolution: {integrity: sha512-yqLViT0D/lPI8Kkm7ciF/x/DCK/H/DnogdGyiTnQgX4OVR2aM30PtK+kvklTOD1u3TuItiD9wUQAF8EYWtyZug==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     requiresBuild: true
@@ -6681,8 +6681,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-qwik@1.2.17(eslint@8.53.0):
-    resolution: {integrity: sha512-Q6gwahd8np5s7/SwWrgvhzAgymqHmiuXdgUvIgnDt0N0fZvdEJQUYQtTOpwMpRj8+E53oKLVk3vogeRki6QbFw==}
+  /eslint-plugin-qwik@1.2.18(eslint@8.53.0):
+    resolution: {integrity: sha512-B4c8bo0x6QyhCgGLkSn3/fqLreCnHeLv6UsVlZfW41VpWc4nPiYQqURp+ChY3TiPy2SXJEKtn4F4bBrn3sn4Fw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.45.0
@@ -8241,7 +8241,7 @@ packages:
     dependencies:
       '@jest/types': 29.5.0
       '@types/graceful-fs': 4.1.6
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -8251,7 +8251,7 @@ packages:
       micromatch: 4.0.5
       walker: 1.0.8
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /jest-regex-util@29.4.3:
@@ -8264,7 +8264,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.5.0
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
@@ -8275,7 +8275,7 @@ packages:
     resolution: {integrity: sha512-NcrQnevGoSp4b5kg+akIpthoAFHxPBcb5P6mYPY0fUNT+sSvmtu6jlkEle3anczUKIKEbMxFimk9oTP/tpIPgA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       jest-util: 29.5.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -10668,7 +10668,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /rollup@4.4.1:
@@ -11034,19 +11034,19 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.4(@builder.io/qwik@1.2.17)(@types/node@20.9.0)(typescript@5.2.2)(vite@5.0.0):
+  /storybook-framework-qwik@0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.9.1)(typescript@5.2.2)(vite@5.0.0):
     resolution: {integrity: sha512-+2H5vx32qYLRU8j4N9ZckwJBzpiMzDHzU6MD8MS107LLfoW9Fe8X4CY8FVzbzWwRwYaQL5QRWCo4TxtNgpeK8Q==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.2.17(@types/node@20.9.0)(undici@5.27.2)
+      '@builder.io/qwik': 1.2.18(@types/node@20.9.1)(undici@5.27.2)
       '@storybook/builder-vite': 7.5.3(typescript@5.2.2)(vite@5.0.0)
       '@storybook/docs-tools': 7.4.0
       magic-string: 0.30.1
       react-docgen-typescript: 2.2.2(typescript@5.2.2)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.2.17(@types/node@20.9.0)
+      '@builder.io/qwik-city': 1.2.18(@types/node@20.9.1)
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - '@types/node'
@@ -12168,22 +12168,22 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@32.5.3:
-    resolution: {integrity: sha512-fK5n0qSmckJlzPgZ7yD3Q1+L13o2FeN9hsZbJcr/kIglA0zRj7OoSEK30LWlxJ44T/Uw0MOgVpK8vkAl+Aqpdw==}
+  /vercel@32.5.5:
+    resolution: {integrity: sha512-243EMaVsFyqrbbiD7kNfGTc+AYQ86k8PaQzFIELFzKRV7cbGWUGqmPiHNZR4XZlHd96S3FHGqWz5HNtzZKQNEQ==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
-      '@vercel/build-utils': 7.2.3
+      '@vercel/build-utils': 7.2.5
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.0.3
       '@vercel/hydrogen': 1.0.1
       '@vercel/next': 4.0.14
-      '@vercel/node': 3.0.9
+      '@vercel/node': 3.0.11
       '@vercel/python': 4.1.0
       '@vercel/redwood': 2.0.5
       '@vercel/remix-builder': 2.0.11
       '@vercel/ruby': 2.0.2
-      '@vercel/static-build': 2.0.10
+      '@vercel/static-build': 2.0.12
       chokidar: 3.3.1
     transitivePeerDependencies:
       - '@swc/core'
@@ -12249,7 +12249,7 @@ packages:
       - rollup
     dev: true
 
-  /vite-node@0.34.6(@types/node@20.9.0):
+  /vite-node@0.34.6(@types/node@20.9.1):
     resolution: {integrity: sha512-nlBMJ9x6n7/Amaz6F3zJ97EBwR2FkzhBRxF5e+jE6LA3yi6Wtc2lyTij1OnDMIr34v5g/tVQtsVAzhT0jc5ygA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -12259,7 +12259,7 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.0.0(@types/node@20.9.0)
+      vite: 5.0.0(@types/node@20.9.1)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -12282,13 +12282,13 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.2.2)
-      vite: 5.0.0(@types/node@20.9.0)
+      vite: 5.0.0(@types/node@20.9.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.5.0(@types/node@20.9.0):
+  /vite@4.5.0(@types/node@20.9.1):
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -12316,15 +12316,15 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       esbuild: 0.18.11
       postcss: 8.4.31
       rollup: 3.28.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
-  /vite@5.0.0(@types/node@20.9.0):
+  /vite@5.0.0(@types/node@20.9.1):
     resolution: {integrity: sha512-ESJVM59mdyGpsiNAeHQOR/0fqNoOyWPYesFto8FFZugfmhdHx8Fzd8sF3Q/xkVhZsyOxHfdM7ieiVAorI9RjFw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -12352,7 +12352,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       esbuild: 0.19.5
       postcss: 8.4.31
       rollup: 4.4.1
@@ -12393,7 +12393,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
-      '@types/node': 20.9.0
+      '@types/node': 20.9.1
       '@vitest/expect': 0.34.6
       '@vitest/runner': 0.34.6
       '@vitest/snapshot': 0.34.6
@@ -12413,8 +12413,8 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.7.0
-      vite: 5.0.0(@types/node@20.9.0)
-      vite-node: 0.34.6(@types/node@20.9.0)
+      vite: 5.0.0(@types/node@20.9.1)
+      vite-node: 0.34.6(@types/node@20.9.1)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
