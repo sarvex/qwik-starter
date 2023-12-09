@@ -73,7 +73,7 @@
     "storybook": "7.6.4",
     "storybook-framework-qwik": "0.2.4",
     "stylelint": "16.0.1",
-    "stylelint-config-standard": "34.0.0",
+    "stylelint-config-standard": "35.0.0",
     "stylelint-config-standard-scss": "11.1.0",
     "tailwindcss": "3.3.6",
     "typescript": "5.3.3",
