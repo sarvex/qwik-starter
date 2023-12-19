@@ -71,7 +71,7 @@
     "prisma": "5.7.0",
     "@biomejs/biome": "1.4.1",
     "storybook": "7.6.4",
-    "storybook-framework-qwik": "0.2.4",
+    "storybook-framework-qwik": "0.2.5",
     "stylelint": "16.0.1",
     "stylelint-config-standard": "35.0.0",
     "stylelint-config-standard-scss": "12.0.0",
