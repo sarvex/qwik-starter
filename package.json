@@ -55,7 +55,7 @@
     "@storybook/html": "7.6.6",
     "@storybook/html-vite": "7.6.6",
     "@types/eslint": "8.56.0",
-    "@types/node": "20.10.5",
+    "@types/node": "20.10.6",
     "@typescript-eslint/eslint-plugin": "6.16.0",
     "@typescript-eslint/parser": "6.16.0",
     "@vitest/ui": "1.1.0",
@@ -80,7 +80,7 @@
     "undici": "6.2.1",
     "vercel": "33.0.1",
     "vite": "5.0.10",
-    "vite-tsconfig-paths": "4.2.2",
+    "vite-tsconfig-paths": "4.2.3",
     "vitest": "1.1.0"
   }
 }
