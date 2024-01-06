@@ -18,8 +18,8 @@ devDependencies:
     specifier: 1.3.2
     version: 1.3.2(@types/node@20.10.6)
   '@builder.io/sdk-qwik':
-    specifier: 0.7.6
-    version: 0.7.6(@builder.io/qwik@1.3.2)
+    specifier: 0.8.0
+    version: 0.8.0(@builder.io/qwik@1.3.2)
   '@ls-lint/ls-lint':
     specifier: 2.2.2
     version: 2.2.2
@@ -1534,8 +1534,8 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/sdk-qwik@0.7.6(@builder.io/qwik@1.3.2):
-    resolution: {integrity: sha512-cqC81gXBFoJAgo23qdfVcClB0tzHnzPITg1dQkTZPa8Jy+RiiPIQIFDO0Wsu+QWJypGjulNixaLQWIIfRPBlNA==}
+  /@builder.io/sdk-qwik@0.8.0(@builder.io/qwik@1.3.2):
+    resolution: {integrity: sha512-0lLLrxk3kog/66riZX4TPTb8eoi1mhycsBOT/Hnfvk3W4/e3KYyYb7T++xQ12k1UM8rTPyR8bkeIJ3TXe/ckzg==}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
     dependencies:
